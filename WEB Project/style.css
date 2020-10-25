@@ -1,0 +1,95 @@
+.background {
+    
+    background-image: url("start.jpg");
+    background-attachment: fixed;
+    min-height: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    
+  }
+
+  .backgroundDining {
+    background-image: url(Dining.jpg);
+    background-attachment: fixed; 
+    min-height: 70%;
+    background-position: center top;
+    background-repeat: no-repeat;   
+    background-size: cover;
+  }
+
+  .backgroundAbout {
+    background-image: url(aboutus.jpg);
+    background-attachment: fixed; 
+    min-height: 70%;
+    background-position: center top;
+    background-repeat: no-repeat;   
+    background-size: cover;
+  }
+
+  .backgroundContact {
+    background-image: url(contact.jpg);
+    min-height: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .navigation {
+        position: absolute; 
+        margin-top: 15px;
+        margin-left:5%;
+        width: auto;
+
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color:rgb(210, 166, 121)
+}
+.topnav a {
+    float: left;
+    color: Black;
+    font-size: large;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+
+}
+.topnav a:hover {
+    text-decoration: underline;
+    color: DarkGreen;
+    text-decoration-thickness: 3px;
+    text-decoration-color: FireBrick;
+
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 100px;
+  font-style: oblique;
+  color:lightgoldenrodyellow;
+}
+
+.font
+{
+  text-decoration:normal;
+  text-decoration-color: crimson;
+  font-style: italic;
+  font-size: large;
+  font-family: Times New Roman;
+}
+
+.footer {
+  
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    background-color:Brown;
+    color: White;
+    width: 100%;
+    bottom: 0;
+  }
